@@ -35,7 +35,7 @@ function ScoreState:render()
         badge = love.graphics.newImage('high.png')
     elseif self.score > 10 then
         badge = love.graphics.newImage('mid.png')
-    elseif self.score > 0 then
+    elseif self.score > -1 then
         badge = love.graphics.newImage('low.png')
     end
 
